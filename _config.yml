@@ -1,0 +1,64 @@
+# Site settings 配置站点
+title: '云南大学美食美景展示'
+description: '一个简单的静态网站，展示云南大学的一些美食美景，为2021学年招生事业添砖加瓦！'
+keyword: '云南大学，美食、美景'
+url: '' # your host
+
+baseurl: ''
+
+# Navigation links
+nav:
+  home: '/'
+  food: '/food.html'
+  scenery: '/scenery.html'
+
+# Footer
+footer:
+  since: 2019
+
+#云大信息
+author: '云南大学'
+nickname: 'YNU'
+bio: '美食、美景'
+avatar: '/assets/img/yd.jpg'
+
+# Search
+search: true
+
+# Night mode
+nightMode: true
+
+# MathJax 公式支持 by Ray-Eldath
+mathjax: true
+
+theme-color: 'pink'  # pink or default
+
+# Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
+postPatterns: 'seaOfClouds'
+
+# SNS settings 配置网站其他介绍
+# url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
+sns:
+  zhihu: '//www.zhihu.com/topic/19933027/hot'
+  weibo: '//weibo.com/ynunews'
+
+# Tags 设置标签
+recommend-tags: true # whether or not display recommend-tags on the sidebar
+recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
+
+# Build settings
+paginate: 9
+paginate_path: 'page:num'
+exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
+
+# Markdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
+# RSS
+RSS: false
+
+# Plugins
+plugins: [jekyll-paginate]
